@@ -1,0 +1,36 @@
+h1{font:normal 24px/34px Arial,Helvetica,sans-serif;color:#1e1e1e;}h2{font:normal 24px/34px Arial,Helvetica,sans-serif;color:#1e1e1e;}h3{font:normal 24px/34px Arial,Helvetica,sans-serif;color:#1e1e1e;}h4{font:bold 16px/24px Arial,Helvetica,sans-serif;color:#ffffff;}h5{font:bold 18px/22px Arial,Helvetica,sans-serif;color:#32a0c5;}h6{font:normal 12px/21px Arial,Helvetica,sans-serif;color:#1b1b1b;}.logo_h__txt,.logo_link{font:italic 48px/48px Arial,Helvetica,sans-serif;color:#ffffff;}.sf-menu>li>a{font:normal 14px/20px Arial,Helvetica,sans-serif;color:#ffffff;}.nav.footer-nav a{font:normal 11px/16px Arial,Helvetica,sans-serif;color:#a1a1a1;}
+
+@media(max-width: 767px){.sf-menu{display:none;} .select-menu{display: block;}}
+
+.visnone{
+	visibility:hidden;
+}
+
+#vat-number{
+	background:#32a0c5;
+	color:#fff;
+	text-align:center;
+	width:100%;
+}
+
+@media(min-width: 767px){
+	#tel-header{
+		color:#fff;
+		font-size:1.8em;
+		font-style:italic;
+		line-height:1.5em;
+		position:absolute;
+		text-align:right;
+		top:100px;
+		right:20px;
+	}
+}
+
+@media(max-width: 766px){
+	#tel-header{
+		color:#fff;
+		font-size:1.2em;
+		font-style:italic;
+		margin:20px 0 0 0;
+	}
+}
